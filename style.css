@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+canvas {
+  margin-top: 20px;
+  border: 2px solid #444;
+  max-width: 100%;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #3f51b5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.controls button:hover {
+  background: #5c6bc0;
+}
+
+footer {
+  background: #1f1f1f;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
